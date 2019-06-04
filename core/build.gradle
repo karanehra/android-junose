@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jmonkeyengine:jme3-core:3.1.0-stable"
+//    implementation "org.jmonkeyengine:jme3-bullet:3.1.0-stable"
+//    implementation "org.jmonkeyengine:jme3-bullet-native:3.1.0-stable"
+    implementation "org.jmonkeyengine:jme3-bullet-native-android:3.1.0-stable"
+    implementation "org.jmonkeyengine:jme3-android:3.1.0-stable"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
